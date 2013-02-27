@@ -1,4 +1,4 @@
 timo
 ====
 
-desktop application for time managment
+Timo is simple windows desktop application for time managment. 
