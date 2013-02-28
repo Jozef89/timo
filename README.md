@@ -1,4 +1,4 @@
-<pre>                           <img  src="http://jozef89.github.com/timo/images/timo.png" align="middle" alt="logo"></img></pre>
+<pre>                        <img  src="http://jozef89.github.com/timo/images/timo.png" align="center" alt="logo"></img></pre>
  
 
 Timo is simple windows desktop application for time managment. 
