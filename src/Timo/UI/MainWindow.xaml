@@ -9,9 +9,9 @@
 
     <Grid x:Name="LayoutRoot">
         <Rectangle x:Name="Background" Fill="White" PreviewMouseDown="Background_PreviewMouseDown"/>
-        <Rectangle x:Name="Logo" Fill="{DynamicResource Timo-logo}" HorizontalAlignment="Left" Height="174" Margin="486,265,0,0" VerticalAlignment="Top" Width="232"/>
+        <Rectangle x:Name="Logo" Fill="{DynamicResource Timo-logo}" HorizontalAlignment="Left" Height="174" Margin="492,266,0,0" VerticalAlignment="Top" Width="232"/>
         <Rectangle x:Name="MenuPanel" Fill="#FF3B9CCC" HorizontalAlignment="Left" Height="696" VerticalAlignment="Top" Width="163"/>
-        <Rectangle Fill="White" HorizontalAlignment="Left" Height="55" Margin="-3,31,0,0" VerticalAlignment="Top" Width="172"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="55" Margin="-3,31,0,0" VerticalAlignment="Top" Width="166"/>
         <TextBlock HorizontalAlignment="Left" Margin="15,42,0,0" TextWrapping="Wrap" Text="Home" VerticalAlignment="Top" FontFamily="Corbel" FontSize="25" Foreground="#FF3B9CCC"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,202,0,0" TextWrapping="Wrap" Text="About" VerticalAlignment="Top" FontFamily="Corbel" FontSize="25" Foreground="White"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,128,0,0" TextWrapping="Wrap" Text="Feedback" VerticalAlignment="Top" FontFamily="Corbel" FontSize="25" Foreground="White"/>
