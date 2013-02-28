@@ -1,6 +1,6 @@
-<pre>                        <img  src="http://jozef89.github.com/timo/images/timo.png" align="center" alt="logo"></img></pre>
+<img  src="http://jozef89.github.com/timo/images/logo-panel.png" align="center" alt="logo"></img> 
  
 
-Timo is simple windows desktop application for time managment. 
+<p>Timo is simple windows desktop application for time managment.<p> 
 
 Version 1.0
