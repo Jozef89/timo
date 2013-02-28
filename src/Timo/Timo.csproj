@@ -56,6 +56,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UI\User_controls\ButtonClose.xaml.cs">
+      <DependentUpon>ButtonClose.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UI\User_controls\ButtonMinim.xaml.cs">
+      <DependentUpon>ButtonMinim.xaml</DependentUpon>
+    </Compile>
     <Page Include="img\Logo.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -86,6 +92,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UI\User_controls\ButtonClose.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UI\User_controls\ButtonMinim.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">

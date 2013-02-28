@@ -1,0 +1,33 @@
+﻿<!--Desciption     User Control for close button-->
+<!--Autor(s)       Jozef Krajčovič              -->
+
+<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="Timo.ButtonClose"
+	x:Name="btnClose"
+	d:DesignWidth="640" d:DesignHeight="480" Width="28" Height="28">
+	
+	<!--My properties trigger-->
+	<UserControl.Resources>
+		 <Style x:Key="myLabels" TargetType="Label">
+            <Style.Triggers>
+                <Trigger Property="Label.IsMouseOver" Value="true">
+                    <Setter Property="Background" Value="#513B9CCC"/>
+                    <Setter Property="BorderBrush" Value="#FF3B9CCC" />               
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+	</UserControl.Resources>
+
+	<Grid x:Name="LayoutRoot">
+        <Label Style="{StaticResource myLabels}" Content=" X" Margin="0,0,1,0.562" Width="27" BorderThickness="0.7" Foreground="#FF3B9CCC" Height="27" Cursor="Hand">
+			<Label.ToolTip>
+                <ToolTip Foreground="White"  Opacity="0.7" Content="Zatvorenie okna" FontSize="16" Background="#FF3B9CCC"/>
+            </Label.ToolTip>
+		</Label>
+	</Grid>
+</UserControl>

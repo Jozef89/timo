@@ -24,9 +24,16 @@ namespace Timo
 			// Insert code required on object creation below this point.
 		}
 
+        // Move window
         private void Background_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
             this.DragMove();
+        }
+
+        // Close window
+        private void btnClose_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
         }
 	}
 }
