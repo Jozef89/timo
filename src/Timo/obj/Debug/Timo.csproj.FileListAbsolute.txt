@@ -1,0 +1,16 @@
+C:\Users\Jozef\Projects\timo\src\Timo\bin\Debug\Timo.exe
+C:\Users\Jozef\Projects\timo\src\Timo\bin\Debug\Timo.pdb
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\Timo.csprojResolveAssemblyReference.cache
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\img\Logo.baml
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\UI\Feedback.baml
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\UI\Help.baml
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\UI\MainWindow.baml
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\App.baml
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\UI\Feedback.g.cs
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\UI\Help.g.cs
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\UI\MainWindow.g.cs
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\App.g.cs
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\Timo_MarkupCompile.cache
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\Timo.g.resources
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\Timo.exe
+C:\Users\Jozef\Projects\timo\src\Timo\obj\Debug\Timo.pdb
