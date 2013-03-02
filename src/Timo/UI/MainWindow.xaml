@@ -13,12 +13,12 @@
         <local:ButtonClose x:Name="btnClose" HorizontalAlignment="Left" Margin="1226,10,0,0" VerticalAlignment="Top" MouseLeftButtonUp="btnClose_MouseLeftButtonUp"/>
         <Grid x:Name="grdLeftPanel" HorizontalAlignment="Left" Height="727" VerticalAlignment="Top" Width="180" Background="#FF3B9CCC">
             <Rectangle Fill="White" HorizontalAlignment="Left" Height="54" Margin="0,36,0,0" VerticalAlignment="Top" Width="180"/>
-            <TextBlock HorizontalAlignment="Left" Margin="0,45,0,0" TextWrapping="Wrap" Text="   Home" VerticalAlignment="Top" FontFamily="Corbel" FontSize="25" Foreground="#FF3B9CCC" Width="180"/>
-            <TextBlock Margin="3,223,0,0" TextWrapping="Wrap" Text="   Options" VerticalAlignment="Top" FontFamily="Corbel" FontSize="25" Foreground="White"/>
-            <TextBlock HorizontalAlignment="Left" Margin="3,301,0,0" TextWrapping="Wrap" Text="   Feedback" VerticalAlignment="Top" FontFamily="Corbel" FontSize="25" Foreground="White" Width="177"/>
-            <TextBlock Margin="3,377,0,0" TextWrapping="Wrap" Text="   About" VerticalAlignment="Top" FontFamily="Corbel" FontSize="25" Foreground="White"/>
-            <TextBlock HorizontalAlignment="Left" Margin="3,458,0,0" TextWrapping="Wrap" Text="   Help" VerticalAlignment="Top" FontFamily="Corbel" FontSize="25" Foreground="White" Width="177"/>
-            <Label Style="{StaticResource MainButton}" x:Name="lblStatistics" Content="   Statistics" Height="42" Margin="0,140,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White"/>
+            <Label Style="{StaticResource MainButton}" x:Name="lblStatistics" Content="   Statistics" Height="42" Margin="0,140,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Cursor="Hand"/>
+            <Label x:Name="lblOptions" Content="   Options" HorizontalAlignment="Left" Margin="0,218,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Width="180" Style="{DynamicResource MainButton}" Cursor="Hand"/>
+            <Label x:Name="lblFeedback" Content="   Feedback" HorizontalAlignment="Left" Margin="0,300,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Width="180" Style="{DynamicResource MainButton}" Cursor="Hand"/>
+            <Label Style="{StaticResource MainButton}" x:Name="lblHome" Content="   Home" Height="42" Margin="0,43,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="#FF3B9CCC" Cursor="Hand"/>
         </Grid>
+        <Label x:Name="lblAbout" Content="   About" HorizontalAlignment="Left" Margin="0,377,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Width="180" Style="{DynamicResource MainButton}" Cursor="Hand"/>
+        <Label x:Name="lblHelp" Content="   Help" HorizontalAlignment="Left" Margin="0,458,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Width="180" Style="{DynamicResource MainButton}" Cursor="Hand"/>
     </Grid>
 </Window>
