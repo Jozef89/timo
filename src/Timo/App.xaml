@@ -20,6 +20,30 @@
                     </Trigger>
                 </Style.Triggers>
             </Style>
+			
+			 <!--Style for MessageBox button-->
+            <Style TargetType="{x:Type Button}" x:Key="MessageButton">
+                <!-- Template -->
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <Border x:Name="myMessageBtn" BorderBrush="#FFC2C2C2" 
+    							BorderThickness="0.4" 
+    							Margin="0" 
+    							Background="#3EE0E0E0" Cursor="Hand">
+                                <ContentControl Content="{TemplateBinding ContentControl.Content}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                            </Border>
+                            <!-- Trigger -->
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#FF830F18" TargetName="myMessageBtn" />
+                                    <Setter Property="BorderBrush" Value="#FF830F18" TargetName="myMessageBtn" />
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
 
 
 

@@ -33,7 +33,9 @@ namespace Timo
         // Close window
         private void btnClose_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            this.Close();
+			grdLeftPanel.Visibility = Visibility.Collapsed;
+			grdEsc.Visibility = Visibility.Visible;
+            //this.Close();
         }
 	}
 }

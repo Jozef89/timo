@@ -5,20 +5,29 @@
 	x:Class="Timo.MainWindow"
 	x:Name="Window"
 	Title="Timo 1.0"
-	Width="1263.91" Height="727.44" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen">
+	Width="1096" Height="688" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen">
 
     <Grid x:Name="LayoutRoot">
+        <Grid.Effect>
+            <DropShadowEffect BlurRadius="1" ShadowDepth="1"/>
+        </Grid.Effect>
         <Rectangle x:Name="Background" Fill="White" PreviewMouseDown="Background_PreviewMouseDown" d:IsLocked="True"/>
-        <Rectangle x:Name="Logo" Fill="{DynamicResource Timo-logo}" HorizontalAlignment="Left" Height="174" Margin="542,286,0,0" VerticalAlignment="Top" Width="232"/>
-        <local:ButtonClose x:Name="btnClose" HorizontalAlignment="Left" Margin="1226,10,0,0" VerticalAlignment="Top" MouseLeftButtonUp="btnClose_MouseLeftButtonUp"/>
-        <Grid x:Name="grdLeftPanel" HorizontalAlignment="Left" Height="727" VerticalAlignment="Top" Width="180" Background="#FF3B9CCC">
+        <Rectangle x:Name="Logo" Fill="{DynamicResource Timo-logo}" HorizontalAlignment="Left" Height="174" Margin="464,282,0,0" VerticalAlignment="Top" Width="232"/>
+        <local:ButtonClose x:Name="btnClose" HorizontalAlignment="Left" Margin="1060,8,0,0" VerticalAlignment="Top" MouseLeftButtonUp="btnClose_MouseLeftButtonUp"/>
+        <Grid x:Name="grdLeftPanel" HorizontalAlignment="Left" Height="688" VerticalAlignment="Top" Width="136" Background="#FF3B9CCC">
             <Rectangle Fill="White" HorizontalAlignment="Left" Height="54" Margin="0,36,0,0" VerticalAlignment="Top" Width="180"/>
             <Label Style="{StaticResource MainButton}" x:Name="lblStatistics" Content="   Statistics" Height="42" Margin="0,140,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Cursor="Hand"/>
-            <Label x:Name="lblOptions" Content="   Options" HorizontalAlignment="Left" Margin="0,218,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Width="180" Style="{DynamicResource MainButton}" Cursor="Hand"/>
-            <Label x:Name="lblFeedback" Content="   Feedback" HorizontalAlignment="Left" Margin="0,300,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Width="180" Style="{DynamicResource MainButton}" Cursor="Hand"/>
+            <Label x:Name="lblOptions" Content="   Options" HorizontalAlignment="Left" Margin="0,218,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Width="136" Style="{DynamicResource MainButton}" Cursor="Hand"/>
+            <Label x:Name="lblFeedback" Content="   Feedback" Margin="0,300,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Style="{DynamicResource MainButton}" Cursor="Hand"/>
             <Label Style="{StaticResource MainButton}" x:Name="lblHome" Content="   Home" Height="42" Margin="0,43,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="#FF3B9CCC" Cursor="Hand"/>
         </Grid>
-        <Label x:Name="lblAbout" Content="   About" HorizontalAlignment="Left" Margin="0,377,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Width="180" Style="{DynamicResource MainButton}" Cursor="Hand"/>
-        <Label x:Name="lblHelp" Content="   Help" HorizontalAlignment="Left" Margin="0,458,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Width="180" Style="{DynamicResource MainButton}" Cursor="Hand"/>
+        <Label x:Name="lblAbout" Content="   About" HorizontalAlignment="Left" Margin="0,377,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Width="136" Style="{DynamicResource MainButton}" Cursor="Hand"/>
+        <Label x:Name="lblHelp" Content="   Help" HorizontalAlignment="Left" Margin="0,458,0,0" VerticalAlignment="Top" FontSize="25" FontFamily="Corbel" Foreground="White" Width="136" Style="{DynamicResource MainButton}" Cursor="Hand"/>
+        <Grid x:Name="grdEsc" Margin="8,280,0,192" Visibility="Collapsed">
+            <Rectangle Fill="#FF3B9CCC"/>
+            <TextBlock Margin="232,32,112,80" TextWrapping="Wrap" Text="Close application, really? " FontSize="53.333" Foreground="White"/>
+            <Button x:Name="btnYes" Style="{DynamicResource MessageButton}" Content="yes" HorizontalAlignment="Left" Height="40" Margin="280,0,0,40" VerticalAlignment="Bottom" Width="232"/>
+            <Button x:Name="btnNo" Style="{DynamicResource MessageButton}" Content="no" HorizontalAlignment="Right" Height="40" Margin="0,0,320,40" VerticalAlignment="Bottom" Width="224"/>
+        </Grid>
     </Grid>
 </Window>
